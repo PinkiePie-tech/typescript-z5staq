@@ -1,0 +1,1 @@
+Tu as pas une fonction qui compare les tableaux dans l'exo1 ? réutilise la :D

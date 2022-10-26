@@ -1,0 +1,1 @@
+Tu peux faire des boucles dans des boucles, mais sinon, tu peux faire un join pour les comparer, les convertir en json, enfin il y a plein de solution quoi :D

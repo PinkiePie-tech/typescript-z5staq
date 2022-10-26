@@ -1,0 +1,1 @@
+La commande à utiliser est .reverse(), du coup tu as les deux sens de lecture :D
