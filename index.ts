@@ -38,7 +38,7 @@ console.log(palindromeJeSuis(exo2tab3));
 // Un petit exercice facultatif car très complexe ^^ connais tu les nombres premier ? un nombre premier est un nombre qui ne peut être divisible que par 1 et par lui mème.
 // petit exemple, 1 est un nombre premier, il peut être divisé par 1 et par lui même 1
 // 7 est un nombre premier, il ne peut être divisé que par 1 et par lui même 7
-// 6 est un nombre impremier, il peut être divisé par 1, 2, 3, et 6
+// 6 est un nombre pas premier, il peut être divisé par 1, 2, 3, et 6
 
 function premierJeSuis(value: number): boolean {
   //
