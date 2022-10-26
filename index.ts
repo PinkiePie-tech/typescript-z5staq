@@ -46,9 +46,9 @@ function premierJeSuis(value: number): boolean {
   //
 }
 
-console.log(premierJeSuis(1));
-console.log(premierJeSuis(3));
-console.log(premierJeSuis(6));
-console.log(premierJeSuis(7));
-console.log(premierJeSuis(13));
-console.log(premierJeSuis(16));
+console.log(premierJeSuis(1)); //true
+console.log(premierJeSuis(3)); //true
+console.log(premierJeSuis(6)); //false
+console.log(premierJeSuis(7)); //true
+console.log(premierJeSuis(13)); //true
+console.log(premierJeSuis(16)); //false
