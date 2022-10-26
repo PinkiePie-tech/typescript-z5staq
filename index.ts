@@ -13,10 +13,10 @@ function onEstJumeaux(tableau1: number[], tableau2: number[]): boolean {
   //
 }
 
-console.log(onEstJumeaux(exo1tab1, exo1tab2));
-console.log(onEstJumeaux(exo1tab2, exo1tab2));
-console.log(onEstJumeaux(exo1tab3, exo1tab2));
-console.log(onEstJumeaux(exo1tab4, exo1tab3));
+console.log('Jumeaux n°1 :' + onEstJumeaux(exo1tab1, exo1tab2));
+console.log('Jumeaux n°2 :' + onEstJumeaux(exo1tab2, exo1tab2));
+console.log('Jumeaux n°3 :' + onEstJumeaux(exo1tab3, exo1tab2));
+console.log('Jumeaux n°4 :' + onEstJumeaux(exo1tab4, exo1tab3));
 
 const exo2tab1 = [1, 0, 0, 1, 0, 0, 1]; // palindrome
 const exo2tab2 = [1, 0, 0, 0, 0, 1]; // palindrome
@@ -31,9 +31,9 @@ function palindromeJeSuis(value: number[]): boolean {
   //
 }
 
-console.log(palindromeJeSuis(exo2tab1));
-console.log(palindromeJeSuis(exo2tab2));
-console.log(palindromeJeSuis(exo2tab3));
+console.log('Palindrome n°1 :' + palindromeJeSuis(exo2tab1));
+console.log('Palindrome n°2 :' + palindromeJeSuis(exo2tab2));
+console.log('Palindrome n°3 :' + palindromeJeSuis(exo2tab3));
 
 // Un petit exercice facultatif car très complexe ^^ connais tu les nombres premier ? un nombre premier est un nombre qui ne peut être divisible que par 1 et par lui mème.
 // petit exemple, 1 est un nombre premier, il peut être divisé par 1 et par lui même 1
@@ -46,9 +46,9 @@ function premierJeSuis(value: number): boolean {
   //
 }
 
-console.log(premierJeSuis(1)); //true
-console.log(premierJeSuis(3)); //true
-console.log(premierJeSuis(6)); //false
-console.log(premierJeSuis(7)); //true
-console.log(premierJeSuis(13)); //true
-console.log(premierJeSuis(16)); //false
+console.log('1 est il un nombre premier :' + premierJeSuis(1)); //true
+console.log('3 est il un nombre premier :' + premierJeSuis(3)); //true
+console.log('6 est il un nombre premier :' + premierJeSuis(6)); //false
+console.log('7 est il un nombre premier :' + premierJeSuis(7)); //true
+console.log('13 est il un nombre premier :' + premierJeSuis(13)); //true
+console.log('16 est il un nombre premier :' + premierJeSuis(16)); //false
